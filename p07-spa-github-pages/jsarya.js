@@ -1,5 +1,6 @@
 const selalu = document.querySelector('.awal .baris .komplek .selalu');
 const mobile_menu = document.querySelector('.awal .baris .komplek ul');
+const menu_item = document.querySelectorAll('.awal .baris .komplek ul li a');
 const awal = document.querySelector('.awal.pengikut');
 
 selalu.addEventListener('click', () => {
