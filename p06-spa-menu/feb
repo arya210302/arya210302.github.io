@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+<style>
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url('../img/tbg.png');
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.depantok .hidup{
+    font-weight: bold;
+}
+
+.aku{
+    background-color: #ff00fc;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    text-align: justify;
+}
+.aku-depantok{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.depantok{
+    position: fixed;
+    background-color: lightgreen;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.1s ease-in-out;
+    box-shadow:1px 1px 10px;
+    z-index: 99;
+}
+.depantok .aku-depantok{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.depantok ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.depantok a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.depantok a:hover{
+    color: black;
+}
+
+.tampilan{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.tampilan span {
+    font-size: 35px;
+    color: crimson;
+    text-shadow: white;
+}
+
+</style>
+
+    <nav class="depantok">
+    <div class="aku-depantok">
+    <span class="tampilan"><a href="../index.html"><span>A</span>RYA <span>NUR</span>YANA</a></span>
+      <ul>
+       <li class="hidup" id="nav_aku1"><a href="#" style="font-size: 25px;">Home</a></li>
+       <li class="mati" id="nav_aku2"><a href="#" style="font-size: 25px;">Produk</a></li>
+       <li class="mati" id="nav_aku3"><a href="#" style="font-size: 25px;">Layanan</a></li>
+       <li class="mati" id="nav_aku4"><a href="#" style="font-size: 25px;">Tentang</a></li>
+       <li class="mati" id="nav_aku5"><a href="#" style="font-size: 25px;">Kontak</a></li>
+
+      </ul>
+     </div>
+    </nav>
+
+    <br><br><br>
+
+    <div class="aku" id="aku1">
+      <br>
+      <h2>Menu Home</h2>
+        <p>Sed mollit commodo excepteur nulla exercitation et eu sunt aliqua aliquip anim in sint sint exercitation deserunt. Aliqua ex ut ut ut enim non anim dolor tempor aute reprehenderit voluptate nisi aute sint.</p>
+    </div>
+    <div class="aku" id="aku2">
+        <br>
+      <h2>Menu Produk</h2>
+        <p>Tempor exercitation ea minim ut consequat excepteur nostrud proident ex pariatur. Dolore minim do mollit veniam non laborum ut id voluptate. Nisi velit commodo minim sed pariatur enim sint laborum labore laborum et reprehenderit sed anim aliqua deserunt culpa. Lorem ipsum pariatur commodo dolor anim dolore dolore in occaecat sint eiusmod.</p>   
+    </div>
+    <div class="aku" id="aku3">
+        <br>
+      <h2>Menu Layanan</h2>
+        <p>Ut ea in officia enim esse laboris labore laboris minim dolore. Adipisicing ea consequat duis fugiat do ea culpa dolor ut ad ex irure exercitation est ut. Dolore ut esse nulla in labore velit excepteur sint tempor adipisicing sit.</p>   
+    </div>
+    <div class="aku" id="aku4">
+        <br>
+      <h2>Menu Tentang</h2>
+        <p>Et sit in culpa enim aliqua ullamco laborum excepteur aute exercitation. Dolor quis cupidatat aute nisi magna culpa dolor exercitation ex non. Lorem ipsum tempor cillum tempor mollit esse et nostrud proident labore commodo velit aliqua enim dolor consectetur id pariatur cillum consectetur. Enim in ut tempor deserunt ullamco minim ea cillum ea minim commodo in in dolore aliquip.</p>   
+    </div>
+    <div class="aku" id="aku5">
+        <br>
+      <h2>Menu Kontak</h2>
+        <p>Id pariatur anim amet deserunt anim amet consectetur ex consequat aute mollit culpa ut occaecat do. Lorem ipsum aliqua officia voluptate est quis adipisicing aliquip deserunt culpa laborum aute id duis. Aliquip deserunt et nisi do pariatur mollit cillum proident sint excepteur. Tempor deserunt nisi qui duis sunt tempor fugiat fugiat tempor anim laborum ex voluptate ad incididunt ex culpa.</p>   
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jsarya.js"></script>
+</body>
+</html>
