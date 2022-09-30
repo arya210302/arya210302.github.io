@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Local</title>
+</head>
+
+<body>
+  <section id="awal">
+    <div class="awal pengikut">
+      <div class="baris">
+        <div class="aku">
+          <a href="#branda">
+            <h1><span>A</span>RYA <span>NUR</span>YANA</h1>
+          </a>
+        </div>
+        <div class="komplek">
+          <div class="selalu">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#branda" data-after="Beranda">Beranda</a></li>
+            <li><a href="#Bidang" data-after="Bidang">Bidang</a></li>
+            <li><a href="#Tugas" data-after="Tugas">Tugas</a></li>
+            <li><a href="#tentang" data-after="Tentang Saya">Tentang Saya</a></li>
+            <li><a href="#kontak" data-after="Kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="branda">
+    <div class="branda pengikut">
+      <div>
+        <h1>Hi Evryone, <span></span></h1>
+        <h1>Saya Arya Nuryana <span></span></h1>
+        <h1>41215294 <span></span></h1>
+        <a href="#Tugas" type="button" class="ar">Tugas</a>
+      </div>
+    </div>
+  </section>
+  <section id="Bidang">
+    <div class="Bidang pengikut">
+      <div class="Bidang-top">
+        <h1 class="riwayat" style="text-align: center; background-color: purple;">Bidang</h1>
+        <br>
+        <div class="Bidang-item">
+        <h1 class="Bidang-title">Teknik informatika</h1>
+        <p style="margin: auto;">Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana menggunakan teknologi komputer secara optimal guna menangani masalah transformasi atau pengolahan data dengan proses logika.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Tugas">
+    <div class="Tugas pengikut">
+      <div class="Tugas-header">
+        <h1 class="riwayat" style="background-color: purple;">History <span>Tugas</span></h1>
+      </div>
+      <div class="all-Tugas">
+        <div class="Tugas-item">
+          <div class="Tugas-info">
+            <h1>CHALANGE 2</h1>
+            <h2>Silahkan Klik</h2>
+            <a onclick="alert('Silahkan Klik OK')" href="../p03/tabel.html" class="tombol">P03 HTML Table Sederhana</a>
+            <a onclick="alert('Silahkan Klik OK')" href="../p03css/tabel-2.html" class="tombol">P03 HTML Table CSS</a>
+            <a onclick="alert('Silahkan Klik OK')" href="../p03jquery/tabel-3.html" class="tombol">P03 HTML Table JQuery Challenge</a>
+          </div>
+          <div class="Tugas-img">
+            <img src="../img/img1.png" alt="img">
+          </div>
+        </div>
+        <div class="Tugas-item">
+          <div class="Tugas-info">
+            <h1>CHALANGE 3</h1>
+            <h2>Silahkan Klik</h2>
+            <a onclick="alert('Silahkan Klik OK')" href="../p03form-lv1/form.html" class="tombol">P03 Formulir Level #1 Basic HTML Form</a>
+            <a onclick="alert('Silahkan Klik OK')" href="../p04css-basic/form2.html" class="tombol">P04 Formulir Level #2 Basic-CSS HTML Form</a>
+            <a onclick="alert('Silahkan Klik OK')" href="../p04css-responsive/from3.html" class="tombol">P04 Formulir Level #3 Responsive-CSS HTML Form</a>
+          </div>
+          <div class="Tugas-img">
+            <div class="Tugas-img">
+            <img src="../img/img2.png" alt="img">
+          </div>
+        </div>
+      </div>
+        <div class="Tugas-item">
+          <div class="Tugas-info">
+            <h1>CHALANGE 4</h1>
+            <h2>Silahkan Klik</h2>
+            <a onclick="alert('Silahkan Klik OK')" href="../p04-static-kop-surat/index.html" class="tombol">P04 Kop Surat Static using CSS</a>
+            <a onclick="alert('Silahkan Klik OK')" href="../p05-jquery-sliding/index.html" class="tombol">P04 P05 JQuery Sliding </a>
+            <a onclick="alert('Silahkan Klik OK')" href="../p05-jquery-delete/index.html" class="tombol">P05 JQuery FadeOut When Delete</a>
+            <a onclick="alert('Silahkan Klik OK')" href="../p06-spa-menu/index.html" class="tombol">P06 JQuery Add/Remove Class for SPA Menu</a>
+          </div>
+          <div class="Tugas-img">
+            <div class="Tugas-img">
+            <img src="../img/img3.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="tentang">
+    <div class="tentang pengikut">
+      <div class="tentang-kiri">
+        <div class="tentang-img">
+          <img src="../img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="Tentang-kanan">
+        <h1 class="riwayat" style="text-align: center; background-color: purple;">Tentang <span>Saya</span></h1>
+        <div class="Bidang-item">
+        <h2 align="center" style="color: mediumvioletred;">ME</h2>
+        <p align="center" style="background-color: goldenrod; font-size: 20px;">Satu atau dua hal saya tidak terlalu peduli, Okay</p>
+      </div>
+    </div>
+  </section>
+  <section id="kontak">
+    <div class="kontak pengikut">
+      <div>
+        <h1 class="riwayat" style="background-color: purple;">Kontak <span>Saya</span></h1>
+      </div>
+      <br><br>
+      <div class="kontak-items">
+        <div class="kontak-item" style="background-color: purple;">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="kontak-info">
+            <h1>Phone</h1>
+            <h2>0881022240838</h2>
+          </div>
+        </div>
+        <div class="kontak-item" style="background-color: mediumvioletred;">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="kontak-info">
+            <h1>Email</h1>
+            <h2>arya210302@gmail.com</h2>
+          </div>
+        </div>
+        <div class="kontak-item" style="background-color: lightcoral;">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="kontak-info">
+            <h1>Address</h1>
+            <h2>Blender City</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bawah">
+    <div class="bawah pengikut">
+      <div class="brand">
+        <p align="center" style="font-size: 25px;">"Jangan mengharapkan semuanya bisa jadi lebih mudah, berharaplah agar dirimu bisa jadi lebih baik"</p>
+        
+        <p align="center">#Arya Nuryana</p>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="jsarya.js"></script>
+</body>
+
+</html>
