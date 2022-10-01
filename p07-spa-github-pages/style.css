@@ -651,11 +651,5 @@ body {
 	#awal .komplek ul a:after {
 		display: none;
 	}
-
-
-	#Bidang .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
-	}
 }
 
